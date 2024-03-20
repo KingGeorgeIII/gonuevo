@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
-	variables.RestoVariables()
+	estado, texto := variables.ConviertoaTexto(1258)
+	println(estado)
+	println(texto)
 
 }
